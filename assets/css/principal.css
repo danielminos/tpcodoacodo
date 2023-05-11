@@ -161,6 +161,19 @@
     text-decoration: none;    
 }
 
+.slider-container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    overflow-x: scroll;
+  }
+  
+  .slider-container img {
+    flex: 0 0 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
 @media screen and (max-width: 768px){
 	.contenedor {
 		grid-template-areas: "header header header"
