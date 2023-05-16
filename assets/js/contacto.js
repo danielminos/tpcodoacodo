@@ -3,7 +3,7 @@ var inputs = document.getElementsByClassName('formulario__input');
 
 function text()
 {
-  if(this.value.length >=1)
+  if(this.value.length >1)
   {
     this.nextElementSibling.classList.add('fijar');
   }
