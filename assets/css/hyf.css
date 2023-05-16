@@ -1,0 +1,80 @@
+.contenedor .header{
+    padding: 25px;
+    text-align: center;    
+}
+
+.contenedor .header #cabecera{
+    display: flex;
+}
+
+.contenedor .header .navegador{
+    text-align: center;
+    width: 1000px;
+    margin: 30px auto;    
+}
+
+.contenedor .header .navegador .menu{
+    display: flex;
+    justify-content: space-around;
+}
+
+.contenedor .header .navegador ul{
+    list-style: none;
+}
+
+.contenedor .header .navegador ul li::before{
+    content: "";
+    height: 3px;
+    width: 0;
+    background: #AFD3E2;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    transition: 0.4s ease-out;
+}
+
+.contenedor .header .navegador ul li:hover::before{
+    width: 100%;
+}
+
+.contenedor .header .menu >li{
+    position: relative;
+    display: inline-block;
+}
+
+.contenedor .header .menu >li >a{
+    display: block;
+    background-color: #088395;
+    border-radius: 25%;
+    padding: 15px 20px;
+    color:white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.contenedor .header .menu li a:hover{
+    color: #088395;
+    background-color: #F6F1F1;
+    border: solid 1px #088395;
+    transition: all .3s;
+}
+
+@keyframes rotate {from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}}
+@-webkit-keyframes rotate {from {-webkit-transform: rotate(0deg);}
+  to {-webkit-transform: rotate(360deg);}}
+#logohospital{
+    -webkit-animation: 3s rotate linear infinite;
+    animation: 20s rotate linear infinite;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+}
+
+.footer{
+    margin: 20px;
+    text-align: center;
+}
+
+.footer .textofooter{
+    background-color:#AFD3E2
+}
