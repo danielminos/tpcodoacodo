@@ -16,7 +16,9 @@ body{
 }
 .formulario__titulo{
   text-align:center;
-  margin: 10px;  
+  margin:0;
+  margin-bottom:40px;
+  
 }
 .formulario__input, .formulario__label, .formulario__submit{
   display:block;
@@ -25,8 +27,8 @@ body{
 .formulario__input{
   padding: 20px;
   margin-bottom:40px;
-  background: lightcyan;
-  border: 2x solid;
+  background:#0A4D68;
+  border:1px solid rgba(0,0,0,0.1);
 }
 .formulario__input:focus{
   outline: 1px solid rgba(0,0,0,0.3);
@@ -38,14 +40,14 @@ body{
   padding-left:15px;
   position:absolute;
   margin-top:-78px;
-  color:blue;
+  color:#00FFCA;
   z-index:-20px;
 }
 
 .formulario__submit{
   padding:15px;
   color:white;
-  background-color:chocolate;
+  background-color:#088395;
   cursor:pointer;
   border:none;
 }
