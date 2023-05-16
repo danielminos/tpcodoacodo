@@ -27,7 +27,7 @@ body{
 .formulario__input{
   padding: 20px;
   margin-bottom:40px;
-  background:#0A4D68;
+  background:#05BFDB;
   border:1px solid rgba(0,0,0,0.1);
 }
 .formulario__input:focus{
@@ -40,14 +40,14 @@ body{
   padding-left:15px;
   position:absolute;
   margin-top:-78px;
-  color:#00FFCA;
+  color:black;
   z-index:-20px;
 }
 
 .formulario__submit{
   padding:15px;
   color:white;
-  background-color:#088395;
+  background-color:#0A4D68;
   cursor:pointer;
   border:none;
 }
