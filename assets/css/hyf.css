@@ -1,3 +1,22 @@
+h1 {
+	color: #0A4D68;
+}
+h2 {
+	color: #088395;
+}
+
+#titulo{
+    width: 50%;
+}
+
+#logomsal{
+    width: 20%;
+}
+
+#logohospital{
+    width: 20%;
+}
+
 .contenedor .header{
     padding: 25px;
     text-align: center;    
@@ -77,4 +96,12 @@
 
 .footer .textofooter{
     background-color:#AFD3E2
+}
+
+.interes{
+    justify-content: space-around;
+}
+
+.interes >a{
+    text-decoration: none;    
 }
