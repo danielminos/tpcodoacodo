@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=BenchNine&display=swap');
+*{
+    font-family: 'BenchNine',sans-serif;
+}
+/* ------------------------HEADER-------------------------- */
+.contenedor{
+    padding: 0;
+    border-radius: 0;
+    width: 100vw;
+    background-color: #146C94;
+}
+
+.contenedor .header{
+    text-align: center;
+    grid-area: header;
+}
+
+.contenedor .header #cabecera{
+    display: flex;
+}
+
+.contenedor .header .navegador{
+    text-align: center;
+    width: 100vw;
+    margin: 30px auto;
+}
+
+.contenedor .header .navegador ul{
+    list-style: none;
+}
+
+.contenedor .header .menu >li{
+    position: relative;
+    display: inline-block;
+}
+
+.contenedor .header .menu >li >a{
+    display: block;
+    background-color: #AFD3E2;
+    border-radius: 25%;
+    padding: 15px 20px;
+    color:#146C94;
+    text-decoration: none;
+}
+
+.contenedor .header .menu li a:hover{
+    color: brown;
+    transition: all .3s;
+}
+
+#titulo{
+    width: 50%;
+}
+
+#logomsal{
+    width: 20%;
+}
+
+#logohospital{
+    width: 20%;
+    text-align: right;
+}
+
+/* ----------------------BODY------------------------- */
+body{
+    background-color: #F6F1F1;
+    text-align: center;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+body>div{
+    width: 25vw;
+    background-color: #146C94;
+}
+.padre{
+    width: 25vw;
+    background-color:#146C94;
+    vertical-align: top;
+    margin: 3px;
+    padding: 2rem;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+h2{
+    text-align:center;
+}
+
+
+p{
+    font-size: 1.2rem;
+    font-style: italic;
+    text-align: center;
+}
+
+.hijo{
+    background-color: #146C94;
+    margin: 0;
+    display: none;
+    border-radius: 20px;
+}
+
+#pfile{
+ padding: 2rem;
+display: inline;
+margin: 50px;
+}
