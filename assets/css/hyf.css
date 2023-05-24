@@ -98,10 +98,12 @@ h2 {
     background-color:#AFD3E2
 }
 
-.interes{
+/* .interes{
     justify-content: space-around;
-}
+} */
 
 .interes >a{
-    text-decoration: none;    
+    text-decoration: none; 
+    justify-content: space-around;   
+    padding: 20px;
 }
