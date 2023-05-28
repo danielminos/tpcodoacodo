@@ -1,220 +1,163 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Servicios Médicos</title>
-  <link rel="stylesheet" href="serviciosmedicos.css">
-
+  <link rel="stylesheet" href="/assets/css/hyf.css">
+  <link rel="stylesheet" href="/assets/css/pacientes.css">
 </head>
-<div class="contenedor">
+
+<div class="contenedor"> 
   <header class="header">
       <div id="cabecera">
           <div id="logomsal">
-              <img src="./assets/img/LogoMSER.png" alt="">
+              <img src="/assets/img/LogoMSER.png" alt="">
           </div>
           <div id="titulo">            
               <h1>Hospital "Santa Rosa"</h1>
               <h2>Villaguay - Entre Rios - Argentina</h2>
           </div>
           <div id="logohospital">
-              <img src="./assets/img/logo.jpg" alt="">
+              <img src="/assets/img/logo.png" alt="logo">
           </div>
       </div>
 
       <nav class="navegador">
           <ul class="menu">
-              <li> <a href="index.html" class="nav-lin">Inicio</a></li>
-              <li> <a href="#" class="nav-link">Institucional</a> </li>
-              <li> <a href="/serviciosmedicos.html" class="nav-link">Servicios Médicos</a> </li>
-              <li> <a href="#" class="nav-link">Pacientes</a></li>
-              <li> <a href="/licitaciones.html" class="nav-link">Administración</a></li>
-              <li> <a href="/contacto.html" class="nav-link">Contacto</a> </li>
+              <li> <a href="/index.html" class="nav-link">INICIO</a></li>
+              <li> <a href="/pages/institucional.html" class="nav-link">INSTITUCIONAL</a> </li>
+              <li> <a href="/pages/serviciosmedicos.html" class="nav-link">SERVICIOS MÉDICOS</a> </li>
+              <li> <a href="/pages/pacientes.html" class="nav-link">PACIENTES</a></li>
+              <li> <a href="/pages/licitaciones.html" class="nav-link">ADMINISTRACIÓN</a></li>
+              <li> <a href="/pages/contacto.html" class="nav-link">CONTACTO</a> </li>
           </ul>
       </nav>
   </header>
 
 <body>
-  <div>
-  <h2>Servicios Médicos</h2>
-  <br>
-  <p>Nuestros servicios y profesionales para brindarte una atención integral y completa.</p>
-  <br>
-  <p><b>IMPORTANTE:</b> Los turnos será otorgados por ventanilla, <i><u>por orden de llegada</u></i>, a partir de las 6.00 am.</p>
-  <br>
-  <p>Recordá que para <b id="urg">URGENCIAS</b> nuestro Hospital cuenta con <b>Guardia Activa las 24 hs.</b></p>
-</div>
-  <div id="main-container">
-      <table border="1">
-        <tr>
-          <th>Especialidad</th><th>Profesional</th><th>Días de atención</th><th>Horario de atención</th>
-        </tr>
-        <tr>
-          <td rowspan="3" id="especialidad">CARDIOLOGÍA</td><td>Dr. Navarro</td><td>lunes, miércoles y viernes</td><td>por la mañana</td>
-        </tr>
-        <tr>
-          <td>Dr. Pérez</td><td>martes</td><td>por la mañana</td>
-        </tr>      
-        <tr>
-          <td>Dr. Reyes</td><td>martes, jueves y viernes</td><td>por la mañana</td>
-        </tr>
-        <tr>
-          <td rowspan="3" id="especialidad">CIRUGÍA</td><td>Dr. Blanco</td><td>lunes y viernes</td><td>por la mañana</td>
-        </tr>
-        <tr>
-          <td>Dr. Hundt</td><td>martes y miécoles</td><td>por la mañana</td>
-        </tr>      
-        <tr>
-          <td>Dr. Ilari</td><td>martes y viernes</td><td>por la mañana</td>
-        </tr>
-        <tr>  
-          <td rowspan="4" id="especialidad">ClÍNICA MÉDICA</td><td>Dr. Almirón</td><td>lunes, martes, miércoles y viernes</td><td>por la mañana</td>
-        </tr>
-        <tr>
-          <td>Dr. González</td><td>lunes, martes, jueves y viernes</td><td>por la mañana</td>
-        </tr>      
-        <tr>
-          <td>Dr. Pérez</td><td>lunes, miércoles y jueves</td><td>por la mañana</td>
-        </tr>
-        <tr>
-          <td>Dr. Silva</td><td>martes, miércoles, jueves y viernes</td><td>por la mañana</td>
-        </tr>
-        <tr>
-          <td rowspan="6" id="especialidad">DIAGNÓSTICO POR IMÁGENES</td><td>Dr. Artaza</td><td>lunes y miércoles</td><td>11:00 hs</td>
-        </tr>
-        <tr>
-          <td>Dr. Char</td><td>lunes, martes y jueves</td><td>16:30 hs</td>
-        </tr>
-        <tr>
-          <td>Dr. De la Rosa</td><td>lunes</td><td>14:00 hs</td>
-        </tr>
-        <tr>
-          <td rowspan="3">Dr. Ortega</td><td>martes</td><td>15:30 hs</td>
-        </tr>
-        <tr>
-          <td>jueves</td><td>7:30 hs</td>
-        </tr>
-        <tr>
-          <td>viernes</td><td>7:00 hs</td>
-        </tr>
-        <tr>
-          <td rowspan="6" id="especialidad">GINECOLOGÍA</td><td>Dr. Debernardi</td><td>lunes y jueves</td><td>por la mañana</td>
-        </tr>
-        <tr>
-          <td>Dr. Fink</td><td>martes y viernes</td><td>por la mañana</td>
-        </tr>
-        <tr>
-          <td>Dr. Ingleson</td><td>lunes, miercoles y viernes</td><td>por la mañana</td>
-        </tr>      
-        <tr>
-          <td>Dr. León</td><td>miércoles</td><td>por la mañana</td>
-        </tr>
-        <tr>
-          <td>Dra. Ríos</td><td>martes y jueves</td><td>por la mañana</td>
-        </tr>
-        <tr>
-          <td>Dr. Tyrrell</td><td>martes y jueves</td><td>por la mañana</td>
-        </tr>
-        <tr>
-          <td rowspan="2" id="especialidad">NUTRICIÓN</td><td>Lic. Corfield</td><td>miércoles</td><td>por la mañana</td>
-        </tr>
-        <tr>
-          <td>Lic. Secchi</td><td>lunes</td><td>por la mañana</td>
-        </tr>
-        <tr>
-          <td id="especialidad">OFTALMOLOGÍA</td><td>Dr. Lucca</td><td>lunes, miércoles y viernes</td><td>por la mañana</td>
-        </tr>
-        <tr>
-          <td id="especialidad">OTORRINOLARINGOLOGÍA</td><td>Dr. Barolin</td><td>lunes y miércoles</td><td>por la mañana</td>
-        </tr>
-        <tr>
-          <td rowspan="9" id="especialidad">PEDIATRÍA</td><td rowspan="3">Dra. Nass</td><td>lunes y jueves</td><td>10:00 hs</td>
-        </tr>
-        <tr>
-          <td>martes</td><td>6:30 hs</td>
-        </tr>
-        <tr>
-          <td>viernes</td><td>9:00 hs</td>
-        </tr>
-        <tr>
-          <td>Dra. Molina</td><td>jueves</td><td>7:00 hs</td>
-        </tr>
-        <tr>
-          <td rowspan="2">Dra. Morales</td><td>martes</td><td>8:30 hs</td>
-        </tr>
-        <tr>
-          <td>viernes</td><td>7:30 hs</td>
-        </tr>
-        <tr>
-          <td>Dra. Pressel</td><td>lunes, miércoles y jueves</td><td>7:30 hs</td>
-        </tr>
-        <tr>
-          <td rowspan="2">Dra. Tamareu</td><td>martes</td><td>7:00 hs</td>
-        </tr>
-        <tr>
-          <td>miércoles</td><td>6:45 hs</td>
-        </tr>
-        <tr>
-          <td rowspan="2" id="especialidad">PODOLOGÍA</td><td>Ferro</td><td>martes y jueves</td><td>por la mañana</td>
-        </tr>
-        <tr>
-          <td>Rodríguez</td><td>miércoles</td><td>por la mañana</td>
-        </tr>
-        <tr>
-          <td id="especialidad">PSICOPEDAGOGÍA</td><td>Lic. Jacobsen</td><td>martes</td><td>por la mañana</td>
-        </tr>
-        <tr>
-          <td rowspan="4" id="especialidad">PSICOLOGÍA</td><td>Dra. Crosa</td><td>jueves</td><td>por la mañana</td>
-        </tr>
-        <tr>
-          <td>Lic. Etchevest</td><td>jueves y viernes</td><td>por la mañana</td>
-        </tr>      
-        <tr>
-          <td>Lic. Monzón</td><td>viernes</td><td>por la mañana</td>
-        </tr>
-        <tr>
-          <td>Dra. Schin</td><td>martes</td><td>por la mañana</td>
-        </tr>
-        <tr>
-          <td rowspan="2" id="especialidad">PSIQUIATRÍA</td><td>Dr. Garcilazo</td><td>miércoles y jueves</td><td>por la mañana</td>
-        </tr>
-        <tr>
-          <td>Dr. Gómez</td><td>martes</td><td>por la mañana</td>
-        </tr>
-        <tr>
-          <td rowspan="5" id="especialidad">TRAUMOTOLOGÍA</td><td>Dr. Fioretti</td><td>lunes y miércoles</td><td>por la mañana</td>
-        </tr>
-        <tr>
-          <td>Dr. Manzato</td><td>jueves</td><td>por la mañana</td>
-        </tr>      
-        <tr>
-          <td>Dr. Protto</td><td>viernes</td><td>por la mañana</td>
-        </tr>
-        <tr>
-          <td>Dr. Traumato</td><td>martes</td><td>por la mañana</td>
-        </tr>
-        <tr>
-          <td>Dr. Treppo</td><td>jueves</td><td>por la mañana</td>
-        </tr>
-      </table>
+  <center>
+    <div>
+      <h2>Servicios Médicos</h2>
+      <br>
+      <h4>Nuestros servicios y profesionales para brindarte una atención integral y completa.</h4>
+      <br>
+      <p><b>IMPORTANTE:</b> Los turnos será otorgados por ventanilla, <i><u>por orden de llegada</u></i>, a partir de las 06.00 hs.</p>
+      <br>
+      <p>Recordá que para <b id="urg">URGENCIAS</b> nuestro Hospital cuenta con <b>Guardia Activa las 24 hs.</b></p>
     </div>
-    
-    
-</body>
+  </center>
+    <section>
+        <details>
+            <summary>CARDIOLOGÍA</summary>
+            <p><b>Dr. Navarro:</b> lunes, miércoles y viernes, por la mañana.</p>
+            <p><b>Dr. Pérez:</b> martes, por la mañana.</p>
+            <p><b>Dr. Reyes:</b> martes, jueves y viernes, por la mañana.</p>
+            
+        </details>
+        
+        <details>
+            <summary>CIRUGÍA</summary>
+            <p><b>Dr. Blanco:</b> lunes y viernes, por la mañana.</p>
+            <p><b>Dr. Hundt:</b> martes y miércoles, por la mañana.</p>
+            <p><b>Dr. Ilari:</b> martes y viernes, por la mañana.</p>
+        </details>
+        
+        <details>
+            <summary>ClÍNICA MÉDICA</summary>
+            <p><b>Dr. Almirón:</b> lunes, martes, miércoles y viernes, por la mañana.</p>
+            <p><b>Dr. González:</b> lunes, martes, jueves y viernes, por la mañana.</p>
+            <p><b>Dr. Pérez:</b> lunes, miércoles y jueves, por la mañana.</p>
+            <p><b>Dr. Silva:</b> martes, miércoles, jueves y viernes, por la mañana.</p>
+        </details>
+
+        <details>
+            <summary>DIAGNÓSTICO POR IMÁGENES</summary>
+            <p><b>Dr. Artaza:</b> lunes y miércoles, 11:00 hs.</p>
+            <p><b>Dr. Char:</b> lunes, martes y jueves, 16:30 hs.</p>
+            <p><b>Dr. De la Rosa:</b> lunes, 14:00 hs.</p>
+            <p><b>Dr. Ortega:</b> martes 15:30 hs, jueves 07:30 hs, viernes 07:00 hs.</p>
+        </details>
+        
+        <details>
+            <summary>GINECOLOGÍA</summary>
+            <p><b>Dr. Debernardi:</b> lunes y jueves, por la mañana.</p>
+            <p><b>Dr. Fink:</b> martes y viernes, por la mañana.</p>
+            <p><b>Dr. Ingleson:</b> lunes, miercoles y viernes, por la mañana.</p>
+            <p><b>Dr. León:</b> miércoles, por la mañana.</p>
+            <p><b>Dra. Ríos:</b> martes y jueves, por la mañana.</p>
+            <p><b>Dr. Tyrrell:</b> martes y jueves, por la mañana.</p>
+        </details>
+        
+        <details>
+            <summary>NUTRICIÓN</summary>
+            <p><b>Lic. Corfield:</b> miércoles, por la mañana.</p>
+            <p><b>Lic. Secchi:</b> lunes, por la mañana.</p>
+        </details>
+
+        <details>
+            <summary>OFTALMOLOGÍA</summary>
+            <p><b>Dr. Lucca:</b> lunes, miércoles y viernes, por la mañana.</p>
+        </details>
+
+        <details>
+            <summary>OTORRINOLARINGOLOGÍA</summary>
+            <p><b>Dr. Barolin:</b> lunes y miércoles, por la mañana.</p>
+        </details>
+
+        <details>
+            <summary>PEDIATRÍA</summary>
+            <p><b>Dra. Nass:</b> lunes y jueves 10:00 hs, martes 06:30 hs, viernes 09:00 hs.</p>
+            <p><b>Dra. Molina:</b> jueves 07:00 hs.</p>
+            <p><b>Dra. Morales:</b> martes 08:30 hs, viernes 07:00 hs.</p>
+            <p><b>Dra. Pressel:</b> lunes, miércoles y viernes, 07:30 hs.</p>
+            <p><b>Dra. Tamareu:</b> martes 07:00 hs, miércoles 06:45 hs.</p>
+        </details>
+
+        <details>
+            <summary>PODOLOGÍA</summary>
+            <p><b>Ferro:</b> martes y jueves, por la mañana.</p>
+            <p><b>Rodríguez:</b> miércoles, por la mañana.</p>
+        </details>
+
+        <details>
+            <summary>PSICOLOGÍA</summary>
+            <p><b>Dra. Crosa:</b> jueves, por la mañana.</p>
+            <p><b>Lic. Etchevest:</b> jueves y viernes, por la mañana.</p>
+            <p><b>Lic. Monzón:</b> viernes, por la mañana.</p>
+            <p><b>Dra. Schin:</b> martes, por la mañana.</p>
+        </details>
+
+        <details>
+            <summary>PSIQUIATRÍA</summary>
+            <p><b>Dr. Garcilazo:</b> miércoles y jueves, por la mañana.</p>
+            <p><b>Dr. Gómez:</b> martes, por la mañana.</p>
+        </details>
+
+        <details>
+            <summary>TRAUMOTOLOGÍA</summary>
+            <p><b>Dr. Fioretti:</b> lunes y miércoles, por la mañana.</p>
+            <p><b>Dr. Manzato:</b> jueves, por la mañana.</p>
+            <p><b>Dr. Protto:</b> viernes, por la mañana.</p>
+            <p><b>Dr. Traumato:</b> martes,	por la mañana.</p>
+            <p><b>Dr. Treppo:</b> jueves, por la mañana.</p>
+        </details>
+    </section>
+</body>  
 
 <footer class="footer">
-  <div class="textofooter">
-      <hr>
-      <h3>San Martín 1867 - Villaguay</h3>
-      <h4>Ministerio de Salud - Provincia de Entre Ríos</h4>
-      <br>
-      <h3 >Link de interés</h3>            
-      <div class="interes">
-          <a href="https://www.argentina.gob.ar/salud" target="_blank">Ministerio de Salud de la Nacion</a>
-          <a href="https://www.entrerios.gov.ar" target="_blank">Pagina del Gobierno de Entre Rios</a>
-          <a href="https://www.entrerios.gov.ar/msalud/"  target="_blank">Ministerio de Salud de Entre Ríos</a>
-      </div>
-  </div>
+    <div class="textofooter">
+        <hr>
+        <h3>San Martín 1867 - Villaguay</h3>
+        <h4>Ministerio de Salud - Provincia de Entre Ríos</h4>
+        <br>
+        <h3 >Link de interés</h3>            
+        <div class="interes">
+            <a href="https://www.argentina.gob.ar/salud">Ministerio de Salud de la Nación</a>
+            <a href="https://www.entrerios.gov.ar">Gobierno de Entre Ríos</a>
+            <a href="https://www.entrerios.gov.ar/msalud/">Ministerio de Salud de Entre Ríos</a>
+        </div>
+    </div>
 </footer>
 </html>
