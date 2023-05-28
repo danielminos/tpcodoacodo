@@ -159,13 +159,18 @@
         pointer-events: none;
         overflow: hidden;
         transition: all .5s ease;
+
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
     }
     .header .navegador.activo {
         /* display: block; */
         height: 50vh;
         pointer-events: auto;
     }
-    .header .barra .navegador .ul{
+    .header .barra .navegador >ul{
         flex-direction: column;
     } 
     .header .barra .li{
