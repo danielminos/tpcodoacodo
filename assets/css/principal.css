@@ -90,7 +90,41 @@
     object-fit: cover;
   }
 
-@media screen and (max-width: 768px){
+  .barra{
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .svg{
+    width: 2em;
+    height: 2em;
+  }
+
+  .header .barra .button{
+    display: none;
+  }
+
+@media screen and (max-width: 1080px){
+	.contenedor {
+		grid-template-areas: "header header header"
+						 "contenido contenido contenido"
+						 "sidebar sidebar sidebar"
+						 "widget-1 widget-1 widget-2"
+						 "footer footer footer";
+	}
+    .contenedor .sidebar{
+        display: flex;
+    }
+    #titulo{
+        font-size: 0.75em;
+        width: 60%;
+    }
+    .contenedor .navegador .menu >li{
+        font-size: 0.75em;
+    }
+}
+
+@media screen and (max-width: 830px){
 	.contenedor {
 		grid-template-areas: "header header header"
 						 "contenido contenido contenido"
@@ -108,5 +142,45 @@
     #logomsal{
         display: none;
     }
+    .contenedor .navegador .menu >li{
+        font-size: 0.5em;
+    }
 }
 
+@media screen and (max-width: 590px){
+	.header .barra .button{
+        display: block;
+        cursor: pointer;
+    }
+    .header .barra .navegador{
+        width: 100%;
+        /* display: none; */
+        height: 0;
+        pointer-events: none;
+        overflow: hidden;
+        transition: all .5s ease;
+    }
+    .header .navegador.activo {
+        /* display: block; */
+        height: 50vh;
+        pointer-events: auto;
+    }
+    .header .barra .navegador .ul{
+        flex-direction: column;
+    } 
+    .header .barra .li{
+        margin: 1rem 0;
+    }   
+    .contenedor .sidebar{
+        display: flex;
+    }
+    #logohospital{
+        display: none;
+    }
+    #titulo{
+        width: 90%;
+    }
+    .numeros{
+        font-size: 1.5rem;
+    }
+}

@@ -28,17 +28,23 @@ h2 {
 
 .contenedor .header .navegador{
     text-align: center;
-    width: 1000px;
+    /* width: 1000px; */
     margin: 30px auto;    
 }
 
-.contenedor .header .navegador .menu{
+/* .contenedor .header .navegador .menu{
     display: flex;
     justify-content: space-around;
-}
+} */
 
 .contenedor .header .navegador ul{
-    list-style: none;
+    display: flex;
+    flex-flow: row nowrap;
+    /* list-style: none; */
+}
+
+.contenedor .header .navegador .barra .li{
+    margin: 0 .5em;
 }
 
 .contenedor .header .navegador ul li::before{
@@ -98,9 +104,9 @@ h2 {
     background-color:#AFD3E2
 }
 
-/* .interes{
-    justify-content: space-around;
-} */
+.interes{
+    justify-content: space-between;
+}
 
 .interes >a{
     text-decoration: none; 
